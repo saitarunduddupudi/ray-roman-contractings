@@ -57,13 +57,13 @@ function submit1(){
     let b=document.getElementById('forma')
     let c=document.getElementById('formre')
 
-    a.innerHTML="<center><h1>Thank You</h1></center>"
+    a.innerHTML="<center><h1>Thank You....</h1></center>"
     
 
    }
    else{
     let a= document.getElementById('h11');
-    a.innerHTML="fill required details or enter correct mno & mail"
+    a.innerHTML="Enter correct details"
     a.style.color="red"
    }
 }
